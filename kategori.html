@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101f3d"><meta name="description" content="Halaman dokumentasi khusus jurusan DKV SMKN 7 Kabupaten Tangerang.">
+  <title>Dokumentasi Jurusan | DKV SMKN 7</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .category-hero{background:var(--navy);color:white;padding:65px 8vw 55px}.category-hero .section-kicker{color:var(--gold)}.category-hero h1{font:800 clamp(38px,5vw,58px)/1.1 Manrope,sans-serif;letter-spacing:-2px;margin:18px 0}.category-hero h1 span{color:var(--gold)}.category-hero p{color:#c9d1df;max-width:650px;line-height:1.8;font-size:14px}.category-main{min-height:55vh}.category-main .section-head{align-items:start}.back-link{display:inline-flex;margin-top:22px;color:white;border-bottom:1px solid var(--gold);padding-bottom:7px;font-size:13px}.category-main .gallery-grid{margin-top:25px}.category-main .empty-state{padding:70px 20px}.category-main .section-head h2{font-size:34px}@media(max-width:650px){.category-hero{padding:45px 6vw}.category-main .section-head{display:block}}
+  </style>
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html#beranda" aria-label="DKV SMKN 7 beranda">
+<span class="brand-mark">
+  <img src="images/logo-dkv.png" alt="Logo DKV" class="brand-logo">
+</span>
+<span class="brand-copy"><strong>SMKN 7</strong><small>KABUPATEN TANGERANG</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav"><a href="index.html#beranda">Dashboard</a><a href="index.html#kegiatan">Kegiatan</a><a href="kategori.html?kategori=PKK">PKK</a><a href="kategori.html?kategori=FDVD">FDVD</a><a href="kategori.html?kategori=DGP">DGP</a><a href="index.html#absensi">Absensi</a></nav>
+  </header>
+  <main>
+    <section class="category-hero"><div class="section-kicker" id="categoryKicker">DOKUMENTASI JURUSAN</div><h1 id="categoryTitle">Galeri <span>jurusan.</span></h1><p id="categoryDescription">Dokumentasi foto dan video kegiatan serta karya siswa DKV SMKN 7 Kabupaten Tangerang.</p><a class="back-link" href="index.html#beranda">← Kembali ke dashboard</a></section>
+    <section class="category-main section-wrap"><div class="section-head"><div><div class="section-kicker" id="categoryNumber">DOKUMENTASI</div><h2 id="galleryHeading">Foto & <span>video.</span></h2></div><p id="galleryIntro">Konten yang dipublikasikan admin untuk kategori ini akan tampil di halaman khusus.</p></div><div class="gallery-grid" id="categoryGallery"><div class="empty-state"><div class="empty-icon">▧</div><h3>Memuat dokumentasi…</h3><p>Mohon tunggu sebentar.</p></div></div><div class="gallery-foot"><span id="categoryCount">Memuat konten…</span><button class="btn btn-outline" id="refreshCategory">Muat ulang ↻</button></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-main"><a class="brand footer-brand" href="index.html#beranda"><span class="brand-mark">DKV<span>7</span></span><span class="brand-copy"><strong>SMKN 7</strong><small>KABUPATEN TANGERANG</small></span></a><p>Ruang digital untuk berbagi cerita, dokumentasi kegiatan, dan karya kreatif siswa Desain Komunikasi Visual.</p><div class="footer-links"><a href="index.html#profil">Profil</a><a href="index.html#kegiatan">Kegiatan</a><a href="index.html#absensi">Absensi</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> DKV SMKN 7 Kabupaten Tangerang</span><span>DIBUAT OLEH DKVHOUSEPRODUCTION</span></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="kategori.js"></script>
+</body></html>
